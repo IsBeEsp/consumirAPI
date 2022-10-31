@@ -1,0 +1,20 @@
+{
+    "name": "ibe/consumir-api",
+    "description": "Práctica consumir API de Pixabay.",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IBE",
+            "email": "ismaelbe2002@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
